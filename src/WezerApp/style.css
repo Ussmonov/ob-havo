@@ -1,0 +1,38 @@
+.topnav{
+    background-color: #658991;
+    width: 100%;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    cursor: pointer;
+    color: #171d21;
+
+}
+.search{
+ display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search > input {
+    width: 40%;
+    border: none;
+    border-bottom: 2px solid slategray;
+    padding: 20px;
+}
+.search > input:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid slategray;
+}
+.city{
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    color: #737373;
+    margin-top: 10px;
+    margin-left: 40%;
+
+
+}
